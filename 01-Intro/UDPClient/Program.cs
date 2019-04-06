@@ -10,7 +10,7 @@ namespace UDPClient
     {
         static void Main(string[] args)
         {
-            String server = "180.183.53.158"; // loop back address
+            String server = "127.0.0.1"; // loop back address mypc-180.183.53.158
             int servPort = 5000;
 
             String message = "Supanat";
